@@ -89,10 +89,14 @@
 
 .bx-wrapper .bx-prev {
 	left: 10px;
+	background:url(https://cdn.rawgit.com/digitide-user/wave-g/d169a940/img/slider/left_arrow.svg);
+	background-size: 18px auto;
 }
 
 .bx-wrapper .bx-next {
 	right: 10px;
+	background:url(https://cdn.rawgit.com/digitide-user/wave-g/d169a940/img/slider/right_arrow.svg);
+	background-size: 18px auto;
 }
 
 .bx-wrapper .bx-prev:hover {
