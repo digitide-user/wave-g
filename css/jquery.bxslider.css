@@ -88,23 +88,17 @@
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {
-	left: 10px;
+	left: 0;
 	background:url(https://cdn.rawgit.com/digitide-user/wave-g/d169a940/img/slider/left_arrow.svg);
 	background-size: 18px auto;
+	background-repeat:no-repeat;
 }
 
 .bx-wrapper .bx-next {
-	right: 10px;
+	right:0;
 	background:url(https://cdn.rawgit.com/digitide-user/wave-g/d169a940/img/slider/right_arrow.svg);
 	background-size: 18px auto;
-}
-
-.bx-wrapper .bx-prev:hover {
-	background-position: 0 0;
-}
-
-.bx-wrapper .bx-next:hover {
-	background-position: -43px 0;
+	background-repeat:no-repeat;
 }
 
 @media screen and (min-width: 569px){
