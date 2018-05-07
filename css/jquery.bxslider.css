@@ -192,7 +192,7 @@
 @media screen and (max-width: 568px){
 	.bx-wrapper .bx-controls-direction a {
 		position: absolute;
-		bottom: 0;
+		bottom: 50px;
 		margin-top:0;
 		outline: 0;
 		width: 16px;
