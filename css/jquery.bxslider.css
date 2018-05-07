@@ -92,6 +92,7 @@
 	background:url(https://cdn.rawgit.com/digitide-user/wave-g/d169a940/img/slider/left_arrow.svg);
 	background-size: 18px auto;
 	background-repeat:no-repeat;
+	background-position:left center;
 }
 
 .bx-wrapper .bx-next {
@@ -99,6 +100,7 @@
 	background:url(https://cdn.rawgit.com/digitide-user/wave-g/d169a940/img/slider/right_arrow.svg);
 	background-size: 18px auto;
 	background-repeat:no-repeat;
+	background-position:right center;
 }
 
 @media screen and (min-width: 569px){
@@ -193,10 +195,26 @@
 		bottom: 0;
 		margin-top:0;
 		outline: 0;
-		width: 32px;
-		height: 32px;
+		width: 16px;
+		height: 16px;
 		text-indent: -9999px;
 		z-index: 9999;
+	}
+	
+	.bx-wrapper .bx-prev {
+		left: 0;
+		background:url(https://cdn.rawgit.com/digitide-user/wave-g/d169a940/img/slider/left_arrow.svg);
+		background-size: 9px auto;
+		background-repeat:no-repeat;
+		background-position:left center;
+	}
+	
+	.bx-wrapper .bx-next {
+		right:0;
+		background:url(https://cdn.rawgit.com/digitide-user/wave-g/d169a940/img/slider/right_arrow.svg);
+		background-size: 9px auto;
+		background-repeat:no-repeat;
+		background-position:right center;
 	}
 	
 	.bx-wrapper .bx-pager,
