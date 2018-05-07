@@ -1,6 +1,117 @@
 @media screen and (min-width: 569px){
 @charset "UTF-8";
 
+
+/*独自追加*/
+
+/*カテゴリーメガメニュー*/
+div#category {
+	display:none;
+	position:absolute;
+	top:30px;
+	left:-40px;
+	width:1080px;
+	background:#fff;
+	z-index:101;
+}
+div#category.itempage {
+	display:block;
+	margin:0 auto 30px;
+	position:static;
+}
+div#category div#category_container {
+	display: -webkit-flex;
+	display: flex;
+	width:1080px;
+	margin:0 auto;
+	background:#fff;
+}
+div#category.itempage div#category_container {
+	width:1000px;
+	margin:0 auto;
+}
+div#category div#category_container div.category_inner {
+	width:calc(1080px / 8 * 2);
+	padding:20px;
+}
+div#category div#category_container div.category_inner.zakka {
+	width:calc(1080px / 8 * 4);
+	padding:20px 0;
+}
+div#category.itempage div#category_container div.category_inner {
+	width:calc(1000px / 8 * 2);
+	padding:20px 0;
+}
+div#category.itempage div#category_container div.category_inner.zakka {
+	width:calc(1000px / 8 * 4);
+	padding:20px;
+}
+div#category div#category_container div.category_inner div {
+	padding:30px 0 0;
+	border-bottom: 1px solid #eaeaea;
+	box-sizing:border-box;
+}
+div#category div#category_container div.category_inner div span {
+	display:flex;
+	-webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+	align-items: center; /* 縦方向中央揃え */
+	-webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+	justify-content: center; /* 横方向中央揃え */
+	height:50px;
+	text-align:center;
+	font-size:1.1rem;
+}
+div#category div#category_container div.category_inner img {
+	display:block;
+	margin:0 auto;
+}
+div#category div#category_container div.category_inner ul {
+	width:100%;
+}
+div#category div#category_container div.category_inner ul li {
+	float:left;
+	margin:0;
+	padding:20px 0 0;
+	width:calc(100% / 2);
+	border-bottom: 1px solid #eaeaea;
+	border-right: 1px solid #eaeaea;
+	box-sizing:border-box;
+}
+div#category div#category_container div.category_inner ul li a {
+	letter-spacing:-0.5px;
+}
+div#category div#category_container div.category_inner ul li:nth-child(2n) {
+	border-right:none;
+}
+div#category div#category_container div.category_inner.zakka ul li:nth-child(2n) {
+	border-right: 1px solid #eaeaea;
+}
+div#category div#category_container div.category_inner.zakka ul li:nth-child(4n) {
+	border-right:none;
+}
+div#category div#category_container div.category_inner ul span {
+	display:flex;
+	-webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+	align-items: center; /* 縦方向中央揃え */
+	-webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+	justify-content: center; /* 横方向中央揃え */
+	height:40px;
+	text-align:center;
+	font-size:0.8rem;
+	line-height:1.2;
+}
+div#category div#category_container div.category_inner.zakka ul li {
+	width:calc(100% / 4);
+}
+div#category div#category_container div.category_inner ul li img {
+	display:block;
+	margin:0 auto;
+}
+.installation {
+	margin-bottom:0;
+}
+
+
 /* ------------------------------------
 ◆　all
 ------------------------------------ */
