@@ -98,7 +98,7 @@
 .bx-wrapper .bx-next {
 	right:-20px;
 	background:url(https://cdn.rawgit.com/digitide-user/wave-g/d169a940/img/slider/right_arrow.svg);
-	background-size: 18px auto;
+	background-size: 32px auto;
 	background-repeat:no-repeat;
 	background-position:right center;
 }
