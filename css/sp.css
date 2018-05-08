@@ -96,7 +96,8 @@ input,select,textarea {
 ◆　common
 ------------------------------------ */
 .topic_brd {
-  font-size: 15px;
+	font-family: 'Kozuka Mincho Pro Light',Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+  font-size: 24px;
   text-align: center;
   position: relative;
   margin: 40px 0 40px 0;
