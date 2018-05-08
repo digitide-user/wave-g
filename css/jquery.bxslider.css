@@ -98,7 +98,7 @@
 .bx-wrapper .bx-next {
 	right:-20px;
 	background:url(https://cdn.rawgit.com/digitide-user/wave-g/d169a940/img/slider/right_arrow.svg);
-	background-size: 32px auto;
+	background-size: 18px auto;
 	background-repeat:no-repeat;
 	background-position:right center;
 }
@@ -190,9 +190,12 @@
 
 /* sp */
 @media screen and (max-width: 568px){
+	.bx-wrapper .bx-pager {
+		margin-top:-10px;
+	}
 	.bx-wrapper .bx-controls-direction a {
 		position: absolute;
-		bottom: -40px;
+		bottom: -30px;
 		margin-top:0;
 		outline: 0;
 		width: 16px;
