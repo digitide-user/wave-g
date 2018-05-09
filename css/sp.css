@@ -788,6 +788,8 @@ body.col2 #products ul.item_lists li.product_list {
 
 #news li .date {
   margin: 0 0 4px 0;
+  background:#ccc;
+  color:#fff;
 }
 
 .serif #news li .date {
