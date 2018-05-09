@@ -123,12 +123,12 @@ input,select,textarea {
   border-top:0.5px solid #ccc;
 }
 
-.topic_brd.top span {
+.topic_brd span {
 	display:block;
 	color:#000;
 }
 
-.topic_brd.top font {
+.topic_brd font {
 	color:#999;
 	font-size:13px;
 }
