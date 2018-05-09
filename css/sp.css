@@ -787,14 +787,11 @@ body.col2 #products ul.item_lists li.product_list {
 }
 
 #news li .date {
-	float:left;
-	display:block;
-	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, YuGothic, "游ゴシック","ヒラギノ角ゴ Pro W3","HiraKakuPro-W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", serif;
-	
+  margin: 0 0 4px 0;
 }
 
 .serif #news li .date {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 #news li .txt {
