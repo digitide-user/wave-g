@@ -788,15 +788,14 @@ body.col2 #products ul.item_lists li.product_list {
 
 #news li .date {
 	display:inline-block;
-	padding:1px;
-	font-size:11px;
+	padding:0 2px;
   margin: 0 0 4px 0;
   background:#666;
   color:#fff;
 }
 
 .serif #news li .date {
-  font-size: 13px;
+  font-size: 11px;
 }
 
 #news li .txt {
