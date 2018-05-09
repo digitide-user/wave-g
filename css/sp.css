@@ -25,6 +25,7 @@ body.serif {
   	/*font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, YuGothic, "游ゴシック","ヒラギノ角ゴ Pro W3","HiraKakuPro-W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", serif;*/
   letter-spacing: 0.05em;
 }
+
 body.san-serif {
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, YuGothic, "游ゴシック","ヒラギノ角ゴ Pro W3","HiraKakuPro-W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", sans-serif;
   letter-spacing: 0.02em;
@@ -128,7 +129,7 @@ input,select,textarea {
 }
 
 .topic_brd.top font {
-	color:#ccc;
+	color:#999;
 	font-size:13px;
 }
 
