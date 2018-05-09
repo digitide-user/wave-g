@@ -115,6 +115,20 @@ input,select,textarea {
   margin: 0 0 0 -10px;
 }
 
+.tempTop .topic_brd {
+	width:90%;
+  margin: 40px auto;
+  border-top:0.5px solid #ccc;
+}
+
+
+.tempTop .topic_brd {
+	width:90%;
+  margin: 40px auto;
+  border-top:0.5px solid #ccc;
+}
+
+
 .tra04 {
   -webkit-transition: all 400ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
   -moz-transition: all 400ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
