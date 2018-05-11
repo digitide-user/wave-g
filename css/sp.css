@@ -132,6 +132,7 @@ input,select,textarea {
 .topic_brd font {
 	color:#999;
 	font-size:13px;
+	line-height:1;
 }
 
 .topic_brd.top:before {
