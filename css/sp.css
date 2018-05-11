@@ -121,7 +121,7 @@ input,select,textarea {
 	padding:30px 0 0;
 	margin: 20px auto;
 	border-top:0.5px solid #ccc;
-	line-height:1.2;
+	line-height:1;
 }
 
 .topic_brd span {
