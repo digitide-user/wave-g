@@ -204,7 +204,7 @@ input,select,textarea {
   margin: 0 50px 0 55px;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 360px){
 
 #mainHeader h1, #mainHeader div.tra06 {
   width: 60%;
