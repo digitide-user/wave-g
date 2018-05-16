@@ -207,7 +207,7 @@ input,select,textarea {
 @media screen and (max-width: 320px){
 
 #mainHeader h1, #mainHeader div.tra06 {
-  width: 70%;
+  width: 60%;
   height: 34px;
   margin:0 auto;
   position: absolute;
@@ -229,6 +229,7 @@ input,select,textarea {
   display: inline-block;
   width: 100%;
   height:auto;
+  line-height:34px;
 }
 
 }
