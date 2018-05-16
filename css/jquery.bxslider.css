@@ -103,7 +103,7 @@
 	background-position:right center;
 }
 
-@media screen and (min-width: 569px){
+@media screen and (min-width: 769px){
 
 .bx-wrapper .bx-controls-direction a {
 	position: absolute;
@@ -189,7 +189,7 @@
 
 
 /* sp */
-@media screen and (max-width: 568px){
+@media screen and (max-width: 768px){
 	.bx-wrapper .bx-controls-direction a {
 		position: absolute;
 		bottom: -30px;
